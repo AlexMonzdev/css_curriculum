@@ -1,0 +1,102 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  height: 80vw;
+  border-radius: 3rem;
+}
+
+.header {
+background: #41c7fc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.header__title {
+
+}
+.header__info {
+  
+
+}
+
+.main {
+  display: grid;
+  grid-template-areas:
+    "profile"
+    "experience"
+    "education"
+    "skills"
+    "interests";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  justify-items:center;
+}
+
+.profile {
+  width: 100%;
+  grid-area: profile;
+  background: rgb(255, 255, 255);
+  
+}
+.profile__description{
+    padding-left: 3rem;
+}
+.section__title{
+    background: #41c7fc;
+    border-radius: 10px;
+    color: white;
+    padding-left: 1rem;
+}
+
+.experience {
+  width: 100%;
+  grid-area: experience;
+}
+.experience__item{
+    padding-left: 3rem;
+}
+
+.education {
+  width: 100%;
+  grid-area: education;
+}
+.education__degree{
+    padding-left: 3rem;
+}
+.skills {
+  width: 100%;
+  grid-area: skills;
+}
+
+.skills__list{
+    padding-left: 3rem;
+    list-style: none;
+}
+
+.interests {
+  width: 100%;  
+  grid-area: interests;
+}
+.interests__description{
+    padding-left: 3rem;
+}
+
+.footer {
+    background: #41c7fc;
+    border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
